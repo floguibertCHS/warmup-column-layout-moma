@@ -1,0 +1,54 @@
+*{
+   box-sizing: border-box;
+}
+
+.news-section{
+	width: 768px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", "serif";
+}
+/*General site styles + general classes*/
+h4, h6, p {
+  color: grey;
+  /*font-size: 20%;*/
+}
+h3 {
+  /*font-size: 20%;*/
+
+}
+.moma-container {
+  width: 768px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.column_box {
+ flex: 33.33%;
+ border: 10px solid #ddd;
+
+}
+
+.column_box:last-child{
+  border-left: 0px;
+}
+.bottom-section {
+  border: 2px solid blue;
+display: flex;
+width: 100%;
+}
+
+.bottom-image {
+  flex: 28%;
+padding-top: 1em;
+}
+.bottom-text {
+  flex: 68%;
+}
+img {
+  width: 100%;
+  p
+}
